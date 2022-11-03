@@ -103,11 +103,25 @@ img {
     color: #ffffff;
     border-radius: 3px;
 
+    @media screen and (max-width: 420px) {
+      padding: 14px 18px;
+    }
+
     &-icon {
       width: 20px;
       height: 20px;
       margin-right: 10px;
       fill: #ffffff;
+
+      @media screen and (max-width: 420px) {
+        margin-right: 0px;
+      }
+    }
+  }
+
+  &__github-text {
+    @media screen and (max-width: 420px) {
+      display: none;
     }
   }
 }
@@ -226,7 +240,7 @@ img {
 .page-bio {
   display: flex;
   align-items: center;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   margin-bottom: 50px;
   border-bottom: 1px solid #dadada;
   
@@ -253,6 +267,10 @@ img {
 
       @media screen and (max-width: 550px) {
         text-align: center;
+      }
+
+      &:last-child {
+        padding-bottom: 0;
       }
     }
   }
