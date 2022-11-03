@@ -4,6 +4,8 @@ import * as React from "react";
 import Seo from "../components/Seo";
 import Layout from "../components/Layout";
 import Bio from "../components/Bio";
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
+deckDeckGoHighlightElement();
 
 export default function BlogPostTemplate(props: any) {
   const { markdownRemark } = props.data;
