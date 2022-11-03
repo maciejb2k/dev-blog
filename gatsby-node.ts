@@ -132,7 +132,6 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       title: String
       description: String
-      location: String
       thumbnail: File @fileByRelativePath
       readTime: String
       date: Date @dateformat
