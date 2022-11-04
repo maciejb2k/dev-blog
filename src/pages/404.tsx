@@ -4,13 +4,11 @@ import Layout from "../components/Layout";
 
 const NotFoundPage = () => {
   return (
-    <Layout title="Not Found">
+    <Layout>
       <div className="page-not-found">
-        <h1 className="page-not-found__title">
-          Taki wpis jeszcze nie istnieje
-        </h1>
+        <h1 className="page-not-found__title">Page not found</h1>
         <Link to="/" className="page-not-found__link">
-          Wróć na stronę główną
+          Return to home page
         </Link>
       </div>
     </Layout>

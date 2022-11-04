@@ -1,18 +1,40 @@
-import { graphql, Link } from "gatsby";
 import * as React from "react";
+import { graphql, Link, PageProps } from "gatsby";
 
 import Seo from "../components/Seo";
 import Layout from "../components/Layout";
 import Bio from "../components/Bio";
+
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
 deckDeckGoHighlightElement();
 
-export default function BlogPostTemplate(props: any) {
-  const { markdownRemark } = props.data;
+type BlogPostBySlugQuery = {
+  readonly site: {
+    readonly siteMetadata: { readonly title: string | null } | null;
+  } | null;
+  readonly markdownRemark: {
+    readonly id: string;
+    readonly excerpt: string | null;
+    readonly html: string;
+    readonly frontmatter: {
+      readonly title: string;
+      readonly date: string;
+      readonly description: string;
+      readonly readTime: string | null;
+      readonly thumbnail: { readonly publicURL: string };
+    };
+    readonly fields: { readonly slug: string | null } | null;
+  };
+};
+
+export default function BlogPostTemplate({
+  data,
+}: PageProps<BlogPostBySlugQuery>) {
+  const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
 
   return (
-    <Layout blogWidth={"700px"}>
+    <Layout>
       <Seo
         title={frontmatter.title}
         description={frontmatter.description}
@@ -50,12 +72,8 @@ export default function BlogPostTemplate(props: any) {
   );
 }
 
-export const pageQuery = graphql`
-  query BlogPostBySlug(
-    $id: String!
-    $previousPostId: String
-    $nextPostId: String
-  ) {
+export const BlogPostBySlug = graphql`
+  query BlogPostBySlug($id: String!) {
     site {
       siteMetadata {
         title
@@ -67,7 +85,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        location
         date(formatString: "DD-MM-YYYY")
         description
         readTime
@@ -77,22 +94,6 @@ export const pageQuery = graphql`
       }
       fields {
         slug
-      }
-    }
-    previous: markdownRemark(id: { eq: $previousPostId }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-      }
-    }
-    next: markdownRemark(id: { eq: $nextPostId }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
       }
     }
   }

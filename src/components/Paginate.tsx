@@ -1,7 +1,12 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-const Paginate = (props: any) => {
+type PaginateProps = {
+  currentPage: number;
+  numPages: number;
+};
+
+const Paginate = (props: PaginateProps) => {
   const { numPages, currentPage } = props;
 
   return (

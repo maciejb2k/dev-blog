@@ -1,13 +1,20 @@
 import * as React from "react";
-import { Link } from "gatsby";
-import { graphql } from "gatsby";
+import { graphql, Link, PageProps } from "gatsby";
 
 import Seo from "../components/Seo";
 import Layout from "../components/Layout";
 import Bio from "../components/Bio";
 import Paginate from "../components/Paginate";
 
-export default function Posts({ data, pageContext }: any) {
+type Props = {
+  data: Queries.BlogPostsListQuery;
+  pageContext: {
+    currentPage: number;
+    numPages: number;
+  };
+};
+
+export default function Posts({ data, pageContext }: Props) {
   const { allMarkdownRemark } = data;
   const { numPages, currentPage } = pageContext;
   const posts = allMarkdownRemark.nodes;
@@ -80,8 +87,8 @@ export default function Posts({ data, pageContext }: any) {
   );
 }
 
-export const blogListQuery = graphql`
-  query blogListQuery($limit: Int!, $skip: Int!) {
+export const BlogPostsList = graphql`
+  query BlogPostsList($limit: Int!, $skip: Int!) {
     site {
       siteMetadata {
         title
@@ -99,7 +106,6 @@ export const blogListQuery = graphql`
         frontmatter {
           date(formatString: "DD-MM-YYYY")
           title
-          location
           readTime
           description
           thumbnail {
