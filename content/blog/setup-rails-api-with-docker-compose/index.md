@@ -8,6 +8,8 @@ readTime: "5"
 
 The most important thing when dealing with Rails is to use Linux, it's a must! Also keep in mind that installing Rails is tricky and sometimes it can drive you crazy. Lets get straight into configuration.
 
+In this configuration, a volume with Rails project inside the container is mapped to a directory with project on the local system. The only problem is with executables like `Rubocop`, so I use Visual Studio with `Dev Containers` extension and I can attach directly to container to make executables works. 
+
 If you are ready, open terminal and type the following commands:
 ```bash
 mkdir <project-name>
@@ -155,7 +157,7 @@ It creates new Rails API project inside container and installs it:
 docker compose run --rm rails rails new . --force --api --database=postgresql --skip-test --skip-spring --skip-coffee
 ```
 
-If installation went fine, we can move on to configuring database inside Rails project. Edit that code fragment inside Rails project in `config/database.yml`:
+If installation went fine, we can move on to configuring database inside Rails project. Edit that code fragment inside volume in `config/database.yml`:
 ```yml
 default: &default
   adapter: postgresql
