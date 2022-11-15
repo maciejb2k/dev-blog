@@ -26,7 +26,6 @@ const Seo = ({
           siteMetadata {
             defaultTitle: title
             titleTemplate
-            author
             defaultDescription: description
             siteUrl: url
             defaultImage: image
@@ -42,7 +41,6 @@ const Seo = ({
     defaultDescription,
     siteUrl,
     defaultImage,
-    author,
   } = site.siteMetadata;
 
   const seo = {
@@ -86,11 +84,11 @@ const Seo = ({
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
-          name: `twitter:creator`,
-          content: author || ``,
+          name: `twitter:url`,
+          content: seo.url,
         },
         {
           name: `twitter:title`,
@@ -99,6 +97,10 @@ const Seo = ({
         {
           name: `twitter:description`,
           content: seo.description,
+        },
+        {
+          name: `twitter:image`,
+          content: seo.image,
         },
       ]}
     >
