@@ -8,11 +8,13 @@ type AppProps = {
   description?: string;
   lang?: string;
   article?: boolean;
+  image?: string;
 };
 
 const Seo = ({
   title,
   description,
+  image,
   lang = "pl",
   article = false,
 }: AppProps) => {
@@ -44,7 +46,7 @@ const Seo = ({
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
-    image: `${siteUrl}${defaultImage}`,
+    image: image || `${siteUrl}${defaultImage}`,
     url: `${siteUrl}${pathname}`,
   };
 
