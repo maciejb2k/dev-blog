@@ -39,7 +39,7 @@ export default function BlogPostTemplate({
         title={frontmatter.title}
         description={frontmatter.description}
         article={true}
-        image={frontmatter.thumbnail.publicURL}
+        thumbnail={frontmatter.thumbnail.publicURL}
       />
       <article className="blog-post">
         <header className="blog-post__header">

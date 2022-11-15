@@ -8,13 +8,13 @@ type AppProps = {
   description?: string;
   lang?: string;
   article?: boolean;
-  image?: string;
+  thumbnail?: string;
 };
 
 const Seo = ({
   title,
   description,
-  image,
+  thumbnail,
   lang = "pl",
   article = false,
 }: AppProps) => {
@@ -46,7 +46,7 @@ const Seo = ({
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
-    image: `${siteUrl}${image ? image : defaultImage}`,
+    image: `${siteUrl}${thumbnail ? thumbnail : defaultImage}`,
     url: `${siteUrl}${pathname}`,
   };
 
@@ -57,13 +57,11 @@ const Seo = ({
       <meta name="description" content={seo.description} />
       <meta name="theme-color" content="#000000" />
 
-      {seo.url && <meta property="og:url" content={seo.url} />}
-      {seo.title && <meta property="og:title" content={seo.title} />}
-      {seo.description && (
-        <meta property="og:description" content={seo.description} />
-      )}
-      {seo.image && <meta property="og:image" content={seo.image} />}
-      {(article ? true : null) && <meta property="og:type" content="article" />}
+      <meta property="og:url" content={seo.url} />
+      <meta property="og:title" content={seo.title} />
+      <meta property="og:description" content={seo.description} />
+      <meta property="og:image" content={seo.image} />
+      {article && <meta property="og:type" content="article" />}
 
       <link
         rel="apple-touch-icon"
