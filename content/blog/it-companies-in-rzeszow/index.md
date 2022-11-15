@@ -78,7 +78,7 @@ I've highlighted the most interesting companies and the biggest ones (of course 
 47\.| [**OPGK**](https://www.opgk.rzeszow.pl/) | [Link](https://www.opgk.rzeszow.pl/kariera) | Software development
 48\.| [**PGS Software**](https://www.pgs-soft.com/) | [Link](https://career.pgs-soft.com/) | Software development
 49\.| [Polskie ePłatności](https://pep.pl/) | [Link](https://pep.pl/kariera/) | Payment solutions
-50\.| [Prime Bit]([www.primebitstudio.com](https://www.primebitstudio.com/)) | [Link](https://www.primebitstudio.com/p/career) | Software development
+50\.| [Prime Bit](www.primebitstudio.com) | [Link](https://www.primebitstudio.com/p/career) | Software development
 51\.| [Primetals Technologies](https://www.primetals.com/) | [Link](https://nofluffjobs.com/pl/company/primetals-technologies-poland-gsu8yuql) | Automation, Engineering
 52\.| [QRSolve](https://qrsolve.com/) | - | Software development
 53\.| [**Salesbook**](https://www.salesbook.com/pl/) | [Link](https://www.salesbook.com/pl/kariera/) | Software development
