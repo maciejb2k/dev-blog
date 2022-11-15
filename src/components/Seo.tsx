@@ -46,7 +46,7 @@ const Seo = ({
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
-    image: image || `${siteUrl}${defaultImage}`,
+    image: `${siteUrl}${image}` || `${siteUrl}${defaultImage}`,
     url: `${siteUrl}${pathname}`,
   };
 
@@ -55,7 +55,6 @@ const Seo = ({
       <html lang={lang} />
 
       <meta name="description" content={seo.description} />
-      <meta name="image" content={defaultImage} />
       <meta name="theme-color" content="#000000" />
 
       {seo.url && <meta property="og:url" content={seo.url} />}
