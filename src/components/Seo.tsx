@@ -46,13 +46,13 @@ const Seo = ({
   } = site.siteMetadata;
 
   const seo = {
-    title: title || defaultTitle,
-    description: description || defaultDescription,
+    title: title ? title : defaultTitle,
+    description: description ? description : defaultDescription,
     image: `${siteUrl}${thumbnail ? thumbnail : defaultImage}`,
     url: `${siteUrl}${pathname}`,
   };
 
-  return (
+  return site ? (
     <Helmet
       htmlAttributes={{
         lang,
@@ -120,7 +120,7 @@ const Seo = ({
         href="/favicon-16x16.png"
       />
     </Helmet>
-  );
+  ) : null;
 };
 
 export default Seo;
