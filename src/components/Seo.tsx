@@ -52,7 +52,7 @@ const Seo = ({
     url: `${siteUrl}${pathname}`,
   };
 
-  return site ? (
+  return (
     <Helmet
       htmlAttributes={{
         lang,
@@ -120,7 +120,7 @@ const Seo = ({
         href="/favicon-16x16.png"
       />
     </Helmet>
-  ) : null;
+  );
 };
 
 export default Seo;
