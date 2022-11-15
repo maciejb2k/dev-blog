@@ -26,6 +26,7 @@ const Seo = ({
           siteMetadata {
             defaultTitle: title
             titleTemplate
+            author
             defaultDescription: description
             siteUrl: url
             defaultImage: image
@@ -41,6 +42,7 @@ const Seo = ({
     defaultDescription,
     siteUrl,
     defaultImage,
+    author,
   } = site.siteMetadata;
 
   const seo = {
@@ -51,18 +53,55 @@ const Seo = ({
   };
 
   return (
-    <Helmet title={seo.title} titleTemplate={titleTemplate}>
-      <html lang={lang} />
-
-      <meta name="description" content={seo.description} />
-      <meta name="theme-color" content="#000000" />
-
-      <meta property="og:url" content={seo.url} />
-      <meta property="og:title" content={seo.title} />
-      <meta property="og:description" content={seo.description} />
-      <meta property="og:image" content={seo.image} />
-      {article && <meta property="og:type" content="article" />}
-
+    <Helmet
+      htmlAttributes={{
+        lang,
+      }}
+      title={seo.title}
+      titleTemplate={titleTemplate}
+      meta={[
+        {
+          name: `description`,
+          content: seo.description,
+        },
+        {
+          name: `theme-color`,
+          content: "#000000",
+        },
+        {
+          property: `og:title`,
+          content: seo.title,
+        },
+        {
+          property: `og:description`,
+          content: seo.description,
+        },
+        {
+          property: `og:image`,
+          content: seo.image,
+        },
+        {
+          property: `og:type`,
+          content: article ? `article` : `website`,
+        },
+        {
+          name: `twitter:card`,
+          content: `summary`,
+        },
+        {
+          name: `twitter:creator`,
+          content: author || ``,
+        },
+        {
+          name: `twitter:title`,
+          content: title,
+        },
+        {
+          name: `twitter:description`,
+          content: seo.description,
+        },
+      ]}
+    >
       <link
         rel="apple-touch-icon"
         sizes="180x180"
