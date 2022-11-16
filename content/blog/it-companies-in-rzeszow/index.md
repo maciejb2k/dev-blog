@@ -7,6 +7,7 @@ readTime: "3"
 ---
 
 <style>
+  .companies tr { background: #ffffff!important }
   .companies tr:nth-child(5) { background: #dfeeff!important }
   .companies tr:nth-child(9) { background: #dfeeff!important }
   .companies tr:nth-child(16) { background: #dfeeff!important }
@@ -14,7 +15,7 @@ readTime: "3"
   .companies tr:nth-child(29) { background: #dfeeff!important }
   .companies tr:nth-child(33) { background: #dfeeff!important }
   .companies tr:nth-child(37) { background: #dfeeff!important }
-  .companies tr:nth-child(47) { background: #dfeeff!important }
+  .companies tr:nth-child(48) { background: #dfeeff!important }
   .companies tr:nth-child(52) { background: #dfeeff!important }
   .companies tr:nth-child(53) { background: #dfeeff!important }
   .companies tr:nth-child(62) { background: #dfeeff!important }
