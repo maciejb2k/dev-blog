@@ -15,6 +15,7 @@ readTime: "3"
   .companies tr:nth-child(29) { background: #dfeeff!important }
   .companies tr:nth-child(33) { background: #dfeeff!important }
   .companies tr:nth-child(37) { background: #dfeeff!important }
+  .companies tr:nth-child(38) { background: #dfeeff!important }
   .companies tr:nth-child(48) { background: #dfeeff!important }
   .companies tr:nth-child(52) { background: #dfeeff!important }
   .companies tr:nth-child(53) { background: #dfeeff!important }
