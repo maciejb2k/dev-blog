@@ -7,20 +7,20 @@ readTime: "3"
 ---
 
 <style>
-  .companies tr:nth-child(5) { background: #f2f8ff!important }
-  .companies tr:nth-child(9) { background: #f2f8ff!important }
-  .companies tr:nth-child(16) { background: #f2f8ff!important }
-  .companies tr:nth-child(18) { background: #f2f8ff!important }
-  .companies tr:nth-child(29) { background: #f2f8ff!important }
-  .companies tr:nth-child(33) { background: #f2f8ff!important }
-  .companies tr:nth-child(37) { background: #f2f8ff!important }
-  .companies tr:nth-child(47) { background: #f2f8ff!important }
-  .companies tr:nth-child(52) { background: #f2f8ff!important }
-  .companies tr:nth-child(53) { background: #f2f8ff!important }
-  .companies tr:nth-child(62) { background: #f2f8ff!important }
-  .companies tr:nth-child(65) { background: #f2f8ff!important }
-  .companies tr:nth-child(66) { background: #f2f8ff!important }
-  .companies tr:nth-child(71) { background: #f2f8ff!important }
+  .companies tr:nth-child(5) { background: #dfeeff!important }
+  .companies tr:nth-child(9) { background: #dfeeff!important }
+  .companies tr:nth-child(16) { background: #dfeeff!important }
+  .companies tr:nth-child(18) { background: #dfeeff!important }
+  .companies tr:nth-child(29) { background: #dfeeff!important }
+  .companies tr:nth-child(33) { background: #dfeeff!important }
+  .companies tr:nth-child(37) { background: #dfeeff!important }
+  .companies tr:nth-child(47) { background: #dfeeff!important }
+  .companies tr:nth-child(52) { background: #dfeeff!important }
+  .companies tr:nth-child(53) { background: #dfeeff!important }
+  .companies tr:nth-child(62) { background: #dfeeff!important }
+  .companies tr:nth-child(65) { background: #dfeeff!important }
+  .companies tr:nth-child(66) { background: #dfeeff!important }
+  .companies tr:nth-child(71) { background: #dfeeff!important }
 </style>
 
 I've been looking for IT companies in my city, mainly specializing in software development. In the table below, I've listed all those that are either located in Rzeszów or have some origin in my city, and I've highlighted the biggest ones (250+, based on total number of employees on LinkedIn, not only from Rzeszów). I'm not sure whether I've listed every company worth mentioning, so below the table I've provided all sources, which I've used for research.
