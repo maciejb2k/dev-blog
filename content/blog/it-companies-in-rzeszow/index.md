@@ -7,14 +7,23 @@ readTime: "3"
 ---
 
 <style>
-  .companies tr:nth-child(9) { background: #d5e8ff!important }
-  .companies tr:nth-child(29) { background: #d5e8ff!important }
-  .companies tr:nth-child(47) { background: #d5e8ff!important }
-  .companies tr:nth-child(51) { background: #d5e8ff!important }
-  .companies tr:nth-child(60) { background: #d5e8ff!important }
+  .companies tr:nth-child(5) { background: #f2f8ff!important }
+  .companies tr:nth-child(9) { background: #f2f8ff!important }
+  .companies tr:nth-child(16) { background: #f2f8ff!important }
+  .companies tr:nth-child(18) { background: #f2f8ff!important }
+  .companies tr:nth-child(29) { background: #f2f8ff!important }
+  .companies tr:nth-child(33) { background: #f2f8ff!important }
+  .companies tr:nth-child(37) { background: #f2f8ff!important }
+  .companies tr:nth-child(47) { background: #f2f8ff!important }
+  .companies tr:nth-child(52) { background: #f2f8ff!important }
+  .companies tr:nth-child(53) { background: #f2f8ff!important }
+  .companies tr:nth-child(62) { background: #f2f8ff!important }
+  .companies tr:nth-child(65) { background: #f2f8ff!important }
+  .companies tr:nth-child(66) { background: #f2f8ff!important }
+  .companies tr:nth-child(71) { background: #f2f8ff!important }
 </style>
 
-I've been looking for IT companies in my city, mainly specializing in software development. In the table below, I've listed all those that are either located in Rzeszów or have some origin in my city, and I've highlighted the biggest ones. I'm not sure whether I've listed every company worth mentioning, so below the table I've provided all sources, which I've used for research.
+I've been looking for IT companies in my city, mainly specializing in software development. In the table below, I've listed all those that are either located in Rzeszów or have some origin in my city, and I've highlighted the biggest ones (250+, based on total number of employees on LinkedIn, not only from Rzeszów). I'm not sure whether I've listed every company worth mentioning, so below the table I've provided all sources, which I've used for research.
 
 Even though Rzeszów is relatively small city (~185k residents) comparing to other cities in Poland, the number of software development companies is impressive for me.
 
@@ -36,7 +45,7 @@ Even though Rzeszów is relatively small city (~185k residents) comparing to oth
 7\.| [Argonium](https://www.argonium.pl/) | [Link](https://www.argonium.pl/oferty_pracy) | Interactive agency
 8\.| [Asiston](https://asiston.pl/) | [Link](https://asiston.pl/kariera-2/) | IT solutions
 9\.| [Asseco Poland](https://pl.asseco.com/) | [Link](https://praca.asseco.com/OfertyWyszukiwaniestart) | Software development
-10\.| [Atmosphere Apps](https://www.atmosphereapps.com/) | [Link](https://www.atmosphereapps.com/job-offers) | Mobile app development
+10\.| [Atmosphere Apps](https://www.atmosphereapps.com/) | [Link](https://www.atmosphereapps.com/job-offers) | Software development
 11\.| [Big Com](https://www.bigcom.pl/) | [Link](https://www.bigcom.pl/Kariera) | Interactive agency
 12\.| [Brand Active](https://brandactive.co/) | - | Interactive agency
 13\.| [CePixel](https://cepixel.com/pl/) | [Link](https://cepixel.com/pl/kariera/) | Interactive agency
@@ -67,37 +76,39 @@ Even though Rzeszów is relatively small city (~185k residents) comparing to oth
 38\.| [Jit](https://jit.team/) | [Link](https://jit.team/join) | Software development
 39\.| [Kamlegit](https://www.kamlegit.pl/) | [Link](https://www.kamlegit.pl/rekrutacja/) | IT solutions
 40\.| [Kruko.io](https://www.kruko.io/) | [Link](https://www.kruko.io/career/job) | Software development
-41\.| [MobileMadness](https://mobilemadness.pl) | [Link](https://mobilemadness.pl/kariera) | Interactive agency
-42\.| [Mobitouch](https://mobitouch.net/pl/) | [Link](https://mobitouch.net/pl/careers/) | Software development
-43\.| [ModulesGarden](https://www.modulesgarden.com/) | [Link](https://www.modulesgarden.com/about-us#careers) | Software development
-44\.| [Monogo](https://monogo.pl) | [Link](https://monogo.pl/kariera) | Software development
-45\.| [MoonBite](https://www.moonbite.pl) | [Link](https://www.moonbite.pl/kariera) | Software development
-46\.| [Nanocoder](https://nanocoder.pl/) | [Link](https://nanocoder.pl/aktualnosci/) | Software development
-47\.| [Netguru (7ninjas)](https://www.netguru.com/) | [Link](https://www.netguru.com/career) | Software development
-48\.| [Neti](https://www.neti-soft.com/) | [Link](https://kariera.neti-soft.com/en/) | Software development
-49\.| [OPGK](https://www.opgk.rzeszow.pl/) | [Link](https://www.opgk.rzeszow.pl/kariera) | Software development
-50\.| [OPTeam](https://opteam.pl/) | [Link](https://opteam.pl/kariera/oferty-pracy) | IT Solutions
-51\.| [PGS Software](https://www.pgs-soft.com/) | [Link](https://career.pgs-soft.com/) | Software development
-52\.| [Polskie ePłatności](https://pep.pl/) | [Link](https://pep.pl/kariera/) | Payment solutions
-53\.| [Prime Bit](www.primebitstudio.com) | [Link](https://www.primebitstudio.com/p/career) | Software development
-54\.| [Primetals Technologies](https://www.primetals.com/) | [Link](https://nofluffjobs.com/pl/company/primetals-technologies-poland-gsu8yuql) | Automation, Engineering
-55\.| [QRSolve](https://qrsolve.com/) | - | Software development
-56\.| [Risenbit](http://risenbit.com/) | - | Software development
-57\.| [Sagitum](https://sagitum.pl/) | [Link](https://sagitum.pl/kariera/) | IT solutions
-58\.| [Salesbook](https://www.salesbook.com/pl/) | [Link](https://www.salesbook.com/pl/kariera) | Software development
-59\.| [Seth Software](https://seth.software/) | - | Software development
-60\.| [Sii Poland](https://sii.pl/) | [Link](https://sii.pl/oferty-pracy/) | Software development
-61\.| [Sintra](https://sintraconsulting.pl/) | [Link](https://sintraconsulting.pl/praca/) | Interactive agency
-62\.| [Soft Gorillas](https://softgorillas.com/) | [Link](https://softgorillas.com/pl/join-us/) | Software development
-63\.| [SoftSystem](https://www.softsystem.pl/pl/) | [Link](https://www.softsystem.pl/pl/oferty-pracy-rzeszow/) | Software development
-64\.| [Software Mind](https://softwaremind.com/) | [Link](https://careers.softwaremind.com/) | Software development
-65\.| [Softwarehood](https://swhood.com/) | [Link](https://swhood.com/careers) | Software development
-66\.| [Symphony Solutions](https://www.symphony-solutions.eu/) | [Link](https://www.symphony-solutions.eu/vacancies-poland/) | Software development
-67\.| [Tectonic Interactive](https://www.tectonicinteractive.com/) | [Link](https://www.tectonicinteractive.com/careers) | Software Development
-68\.| [Top SA](https://topsa.com.pl/) | [Link](https://topsa.com.pl/praca/) | IT solutions
-69\.| [VirtusLab](https://virtuslab.com/) | [Link](https://virtuslab.com/join-us/) | Software development
-70\.| [Zen](https://www.zen.com/) | [Link](https://zen.traffit.com/career/) | IT solutions
-71\.| [ZETO Rzeszów](https://zetorzeszow.pl/) | [Link](https://kariera.zetorzeszow.pl/) | IT solutions
+41\.| [Mobica](https://mobica.com/) | [Link](https://mobica.com/join-the-team) | Software development
+42\.| [MobileMadness](https://mobilemadness.pl) | [Link](https://mobilemadness.pl/kariera) | Interactive agency
+43\.| [Mobitouch](https://mobitouch.net/pl/) | [Link](https://mobitouch.net/pl/careers/) | Software development
+44\.| [ModulesGarden](https://www.modulesgarden.com/) | [Link](https://www.modulesgarden.com/about-us#careers) | Software development
+45\.| [Monogo](https://monogo.pl) | [Link](https://monogo.pl/kariera) | Software development
+46\.| [MoonBite](https://www.moonbite.pl) | [Link](https://www.moonbite.pl/kariera) | Software development
+47\.| [Nanocoder](https://nanocoder.pl/) | [Link](https://nanocoder.pl/aktualnosci/) | Software development
+48\.| [Netguru (7ninjas)](https://www.netguru.com/) | [Link](https://www.netguru.com/career) | Software development
+49\.| [Neti](https://www.neti-soft.com/) | [Link](https://kariera.neti-soft.com/en/) | Software development
+50\.| [OPGK](https://www.opgk.rzeszow.pl/) | [Link](https://www.opgk.rzeszow.pl/kariera) | Software development
+51\.| [OPTeam](https://opteam.pl/) | [Link](https://opteam.pl/kariera/oferty-pracy) | IT Solutions
+52\.| [PGS Software](https://www.pgs-soft.com/) | [Link](https://career.pgs-soft.com/) | Software development
+53\.| [Polskie ePłatności](https://pep.pl/) | [Link](https://pep.pl/kariera/) | Payment solutions
+54\.| [PrimeBit Studio](www.primebitstudio.com) | [Link](https://www.primebitstudio.com/p/career) | Software development
+55\.| [Primetals Technologies](https://www.primetals.com/) | [Link](https://nofluffjobs.com/pl/company/primetals-technologies-poland-gsu8yuql) | Automation, Engineering
+56\.| [QRSolve](https://qrsolve.com/) | - | Software development
+57\.| [Risenbit](http://risenbit.com/) | - | Software development
+58\.| [Sagitum](https://sagitum.pl/) | [Link](https://sagitum.pl/kariera/) | IT solutions
+59\.| [Salesbook](https://www.salesbook.com/pl/) | [Link](https://www.salesbook.com/pl/kariera) | Software development
+60\.| [Sente](https://sente.pl/) | [Link](https://praca.sente.pl/oferty-pracy/) | Software development
+61\.| [Seth Software](https://seth.software/) | - | Software development
+62\.| [Sii Poland](https://sii.pl/) | [Link](https://sii.pl/oferty-pracy/) | Software development
+63\.| [Sintra](https://sintraconsulting.pl/) | [Link](https://sintraconsulting.pl/praca/) | Interactive agency
+64\.| [Soft Gorillas](https://softgorillas.com/) | [Link](https://softgorillas.com/pl/join-us/) | Software development
+65\.| [SoftSystem](https://www.softsystem.pl/pl/) | [Link](https://www.softsystem.pl/pl/oferty-pracy-rzeszow/) | Software development
+66\.| [Software Mind](https://softwaremind.com/) | [Link](https://careers.softwaremind.com/) | Software development
+67\.| [Softwarehood](https://swhood.com/) | [Link](https://swhood.com/careers) | Software development
+68\.| [Symphony Solutions](https://www.symphony-solutions.eu/) | [Link](https://www.symphony-solutions.eu/vacancies-poland/) | Software development
+69\.| [Tectonic Interactive](https://www.tectonicinteractive.com/) | [Link](https://www.tectonicinteractive.com/careers) | Software Development
+70\.| [Top SA](https://topsa.com.pl/) | [Link](https://topsa.com.pl/praca/) | IT solutions
+71\.| [VirtusLab](https://virtuslab.com/) | [Link](https://virtuslab.com/join-us/) | Software development
+72\.| [Zen](https://www.zen.com/) | [Link](https://zen.traffit.com/career/) | IT solutions
+73\.| [ZETO Rzeszów](https://zetorzeszow.pl/) | [Link](https://kariera.zetorzeszow.pl/) | IT solutions
 
 </div>
 
