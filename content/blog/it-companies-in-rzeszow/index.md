@@ -90,7 +90,7 @@ Even though Rzeszów is relatively small city (~185k residents) comparing to oth
 51\.| [OPTeam](https://opteam.pl/) | [Link](https://opteam.pl/kariera/oferty-pracy) | IT Solutions
 52\.| [PGS Software](https://www.pgs-soft.com/) | [Link](https://career.pgs-soft.com/) | Software development
 53\.| [Polskie ePłatności](https://pep.pl/) | [Link](https://pep.pl/kariera/) | Payment solutions
-54\.| [PrimeBit Studio](www.primebitstudio.com) | [Link](https://www.primebitstudio.com/p/career) | Software development
+54\.| [PrimeBit Studio](https://www.primebitstudio.com) | [Link](https://www.primebitstudio.com/p/career) | Software development
 55\.| [Primetals Technologies](https://www.primetals.com/) | [Link](https://nofluffjobs.com/pl/company/primetals-technologies-poland-gsu8yuql) | Automation, Engineering
 56\.| [QRSolve](https://qrsolve.com/) | - | Software development
 57\.| [Risenbit](http://risenbit.com/) | - | Software development
