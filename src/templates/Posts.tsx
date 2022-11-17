@@ -55,6 +55,7 @@ export default function Posts({ data, pageContext }: Props) {
                             <span itemProp="headline">{title}</span>
                           </h2>
                           <small className="post-item__date">
+                            <u>{post.frontmatter.author}</u> -{" "}
                             {post.frontmatter.date} -{" "}
                             {post.frontmatter.readTime} min read
                           </small>
@@ -108,6 +109,7 @@ export const BlogPostsList = graphql`
           title
           readTime
           description
+          author
           thumbnail {
             publicURL
           }
