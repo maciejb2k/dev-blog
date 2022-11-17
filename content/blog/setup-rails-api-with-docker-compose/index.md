@@ -3,6 +3,8 @@ title: Setup Rails API with Docker Compose
 date: 2022-11-03
 description: How to setup new Rails 7 API project with Postgres 13 inside Docker containers.
 thumbnail: "./thumbnail.jpg"
+author: "Maciej Biel"
+authorPhoto: "./author.jpg"
 readTime: "5"
 ---
 

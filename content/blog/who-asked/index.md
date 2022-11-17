@@ -3,6 +3,8 @@ title: Who asked?
 date: 2022-11-02
 description: Why I started this blog and what's the purpose behind the idea of blogging.
 thumbnail: "./thumbnail.jpg"
+author: "Maciej Biel"
+authorPhoto: "./author.jpg"
 readTime: "2"
 ---
 

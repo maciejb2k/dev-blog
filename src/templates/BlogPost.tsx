@@ -22,6 +22,8 @@ type BlogPostBySlugQuery = {
       readonly description: string;
       readonly readTime: string | null;
       readonly thumbnail: { readonly publicURL: string };
+      readonly author: string;
+      readonly authorPhoto: { readonly publicURL: string };
     };
     readonly fields: { readonly slug: string | null } | null;
   };
@@ -54,9 +56,21 @@ export default function BlogPostTemplate({
           <h1 className="blog-post__title" itemProp="headline">
             {frontmatter.title}
           </h1>
-          <p className="blog-post__date">
-            {frontmatter.date} - {frontmatter.readTime} min read
-          </p>
+          <div className="blog-post__top">
+            <div className="blog-post__left">
+              <img
+                className="blog-post__author-photo"
+                src={frontmatter.authorPhoto.publicURL}
+                alt=""
+              />
+            </div>
+            <div className="blog-post__right">
+              <p className="blog-post__author">{frontmatter.author}</p>
+              <p className="blog-post__date">
+                {frontmatter.date} - {frontmatter.readTime} min read
+              </p>
+            </div>
+          </div>
         </header>
         {html ? (
           <section
@@ -89,7 +103,11 @@ export const BlogPostBySlug = graphql`
         date(formatString: "DD-MM-YYYY")
         description
         readTime
+        author
         thumbnail {
+          publicURL
+        }
+        authorPhoto {
           publicURL
         }
       }

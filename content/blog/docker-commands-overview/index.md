@@ -3,6 +3,8 @@ title: Docker commands overview
 date: 2022-11-07
 description: Quick overview of useful docker commands with brief explanations.
 thumbnail: "./thumbnail.jpg"
+author: "Maciej Biel"
+authorPhoto: "./author.jpg"
 readTime: "4"
 ---
 

@@ -131,6 +131,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       description: String
       thumbnail: File @fileByRelativePath
       readTime: String
+      author: String
+      authorPhoto: File @fileByRelativePath
       date: Date @dateformat
     }
 

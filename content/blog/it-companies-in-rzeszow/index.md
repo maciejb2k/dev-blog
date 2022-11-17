@@ -3,6 +3,8 @@ title: IT companies in Rzeszów
 date: 2022-11-10
 description: I've made a little research about IT companies in my city.
 thumbnail: "./thumbnail.jpg"
+author: "Maciej Biel"
+authorPhoto: "./author.jpg"
 readTime: "3"
 ---
 

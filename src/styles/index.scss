@@ -306,6 +306,18 @@ deckgo-highlight-code {
       font-size: 1.4rem;
     }
 
+    .blog-post__top {
+      display: flex;
+      align-items: center;
+    }
+
+    .blog-post__author-photo {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      margin-right: 20px;
+    }
+
     .blog-post__thumbnail {
       max-width: 100%;
       width: 100%;
@@ -320,7 +332,15 @@ deckgo-highlight-code {
       color: #000000;
       font-weight: 700;
       font-size: 3.6rem;
-      padding-bottom: 8px;
+      padding-bottom: 20px;
+    }
+
+    .blog-post__author {
+      font-weight: 400;
+      display: block;
+      color: #000000;
+      text-decoration: underline;
+      padding-bottom: 5px;
     }
 
     .blog-post__date {
