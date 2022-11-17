@@ -17,12 +17,12 @@ readTime: "3"
   .companies tr:nth-child(40) { background: #dfeeff!important }
   .companies tr:nth-child(45) { background: #dfeeff!important }
   .companies tr:nth-child(46) { background: #dfeeff!important }
-  .companies tr:nth-child(59) { background: #dfeeff!important }
   .companies tr:nth-child(60) { background: #dfeeff!important }
-  .companies tr:nth-child(69) { background: #dfeeff!important }
-  .companies tr:nth-child(72) { background: #dfeeff!important }
+  .companies tr:nth-child(61) { background: #dfeeff!important }
+  .companies tr:nth-child(70) { background: #dfeeff!important }
   .companies tr:nth-child(73) { background: #dfeeff!important }
-  .companies tr:nth-child(79) { background: #dfeeff!important }
+  .companies tr:nth-child(74) { background: #dfeeff!important }
+  .companies tr:nth-child(80) { background: #dfeeff!important }
 </style>
 
 I've been looking for IT companies in my city, mainly specializing in software development. In the table below, I've listed all those that are either located in Rzeszów or have some origin in my city, and I've highlighted the biggest ones (250+, based on total number of employees on LinkedIn, not only from Rzeszów). I'm not sure whether I've listed every company worth mentioning, so below the table I've provided all sources, which I've used for research.
@@ -96,29 +96,30 @@ Even though Rzeszów is relatively small city (~185k residents) comparing to oth
 56\.| [Neti](https://www.neti-soft.com/) | [Link](https://kariera.neti-soft.com/en/) | Software development
 57\.| [OPGK](https://www.opgk.rzeszow.pl/) | [Link](https://www.opgk.rzeszow.pl/kariera) | Software development
 58\.| [OPTeam](https://opteam.pl/) | [Link](https://opteam.pl/kariera/oferty-pracy) | IT Solutions
-59\.| [PGS Software](https://www.pgs-soft.com/) | [Link](https://career.pgs-soft.com/) | Software development
-60\.| [Polskie ePłatności](https://pep.pl/) | [Link](https://pep.pl/kariera/) | Payment solutions
-61\.| [PrimeBit Studio](https://www.primebitstudio.com) | [Link](https://www.primebitstudio.com/p/career) | Software development
-62\.| [Primetals Technologies](https://www.primetals.com/) | [Link](https://nofluffjobs.com/pl/company/primetals-technologies-poland-gsu8yuql) | Automation, Engineering
-63\.| [QRSolve](https://qrsolve.com/) | - | Software development
-64\.| [Risenbit](http://risenbit.com/) | - | Software development
-65\.| [Sagitum](https://sagitum.pl/) | [Link](https://sagitum.pl/kariera/) | IT solutions
-66\.| [Salesbook](https://www.salesbook.com/pl/) | [Link](https://www.salesbook.com/pl/kariera) | Software development
-67\.| [Sente](https://sente.pl/) | [Link](https://praca.sente.pl/oferty-pracy/) | Software development
-68\.| [Seth Software](https://seth.software/) | - | Software development
-69\.| [Sii Poland](https://sii.pl/) | [Link](https://sii.pl/oferty-pracy/) | Software development
-70\.| [Sintra](https://sintraconsulting.pl/) | [Link](https://sintraconsulting.pl/praca/) | Interactive agency
-71\.| [Soft Gorillas](https://softgorillas.com/) | [Link](https://softgorillas.com/pl/join-us/) | Software development
-72\.| [SoftSystem](https://www.softsystem.pl/pl/) | [Link](https://www.softsystem.pl/pl/oferty-pracy-rzeszow/) | Software development
-73\.| [Software Mind](https://softwaremind.com/) | [Link](https://careers.softwaremind.com/) | Software development
-74\.| [Softwarehood](https://swhood.com/) | [Link](https://swhood.com/careers) | Software development
-75\.| [Symphony Solutions](https://www.symphony-solutions.eu/) | [Link](https://www.symphony-solutions.eu/vacancies-poland/) | Software development
-76\.| [Tectonic Interactive](https://www.tectonicinteractive.com/) | [Link](https://www.tectonicinteractive.com/careers) | Software Development
-77\.| [Top SA](https://topsa.com.pl/) | [Link](https://topsa.com.pl/praca/) | IT solutions
-78\.| [Virtua Codelab](https://www.virtuacodelab.com/pl/) | - | eCommerce agency
-79\.| [VirtusLab](https://virtuslab.com/) | [Link](https://virtuslab.com/join-us/) | Software development
-80\.| [Zen](https://www.zen.com/) | [Link](https://zen.traffit.com/career/) | IT solutions
-81\.| [ZETO Rzeszów](https://zetorzeszow.pl/) | [Link](https://kariera.zetorzeszow.pl/) | IT solutions
+59\.| [Ovos](https://ovos.at/en/) | [Link](https://ovos.at/en/jobs/) | Software development
+60\.| [PGS Software](https://www.pgs-soft.com/) | [Link](https://career.pgs-soft.com/) | Software development
+61\.| [Polskie ePłatności](https://pep.pl/) | [Link](https://pep.pl/kariera/) | Payment solutions
+62\.| [PrimeBit Studio](https://www.primebitstudio.com) | [Link](https://www.primebitstudio.com/p/career) | Software development
+63\.| [Primetals Technologies](https://www.primetals.com/) | [Link](https://nofluffjobs.com/pl/company/primetals-technologies-poland-gsu8yuql) | Automation, Engineering
+64\.| [QRSolve](https://qrsolve.com/) | - | Software development
+65\.| [Risenbit](http://risenbit.com/) | - | Software development
+66\.| [Sagitum](https://sagitum.pl/) | [Link](https://sagitum.pl/kariera/) | IT solutions
+67\.| [Salesbook](https://www.salesbook.com/pl/) | [Link](https://www.salesbook.com/pl/kariera) | Software development
+68\.| [Sente](https://sente.pl/) | [Link](https://praca.sente.pl/oferty-pracy/) | Software development
+69\.| [Seth Software](https://seth.software/) | - | Software development
+70\.| [Sii Poland](https://sii.pl/) | [Link](https://sii.pl/oferty-pracy/) | Software development
+71\.| [Sintra](https://sintraconsulting.pl/) | [Link](https://sintraconsulting.pl/praca/) | Interactive agency
+72\.| [Soft Gorillas](https://softgorillas.com/) | [Link](https://softgorillas.com/pl/join-us/) | Software development
+73\.| [SoftSystem](https://www.softsystem.pl/pl/) | [Link](https://www.softsystem.pl/pl/oferty-pracy-rzeszow/) | Software development
+74\.| [Software Mind](https://softwaremind.com/) | [Link](https://careers.softwaremind.com/) | Software development
+75\.| [Softwarehood](https://swhood.com/) | [Link](https://swhood.com/careers) | Software development
+76\.| [Symphony Solutions](https://www.symphony-solutions.eu/) | [Link](https://www.symphony-solutions.eu/vacancies-poland/) | Software development
+77\.| [Tectonic Interactive](https://www.tectonicinteractive.com/) | [Link](https://www.tectonicinteractive.com/careers) | Software Development
+78\.| [Top SA](https://topsa.com.pl/) | [Link](https://topsa.com.pl/praca/) | IT solutions
+79\.| [Virtua Codelab](https://www.virtuacodelab.com/pl/) | - | eCommerce agency
+80\.| [VirtusLab](https://virtuslab.com/) | [Link](https://virtuslab.com/join-us/) | Software development
+81\.| [Zen](https://www.zen.com/) | [Link](https://zen.traffit.com/career/) | IT solutions
+82\.| [ZETO Rzeszów](https://zetorzeszow.pl/) | [Link](https://kariera.zetorzeszow.pl/) | IT solutions
 
 </div>
 
