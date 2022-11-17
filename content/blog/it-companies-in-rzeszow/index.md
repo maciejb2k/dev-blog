@@ -49,7 +49,7 @@ Even though Rzeszów is relatively small city (~185k residents) comparing to oth
 9\.| [Asseco Poland](https://pl.asseco.com/) | [Link](https://praca.asseco.com/OfertyWyszukiwaniestart) | Software development
 10\.| [Atmosphere Apps](https://www.atmosphereapps.com/) | [Link](https://www.atmosphereapps.com/job-offers) | Software development
 11\.| [Big Com](https://www.bigcom.pl/) | [Link](https://www.bigcom.pl/Kariera) | Interactive agency
-12\.| [BMM](https://www.bmm.com.pl/) | [Link](https://www.bmm.com.pl/kariera) | Software development
+12\.| [BMM](https://www.bmm.com.pl/) | [Link](https://www.bmm.com.pl/kariera) | IT solutions
 13\.| [BonaSoft](https://bonasoft.pl/) | [Link](https://bonasoft.pl/kariera/) | Software development
 14\.| [Brand Active](https://brandactive.co/) | - | Interactive agency
 15\.| [CePixel](https://cepixel.com/pl/) | [Link](https://cepixel.com/pl/kariera/) | Interactive agency
