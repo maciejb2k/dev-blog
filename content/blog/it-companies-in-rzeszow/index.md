@@ -82,8 +82,8 @@ Even though Rzeszów is relatively small city (~185k residents) comparing to oth
 39\.| [Helix Solutions](https://helixsolutions.pl/) | [Link](https://helixsolutions.pl/wspolpraca/) | Software development
 40\.| [HUSPI](https://huspi.com/) | - | Software development
 41\.| [Ice Code Games](https://icecodegames.com/) | [Link](https://icecodegames.com/jobs/) | Game development
-42\.| [Ideo](https://www.ideoforce.pl/) | [Link](https://www.ideoforce.pl/o-firmie/oferty-pracy/) | Software development
-43\.| [Ideo Force](https://www.ideo.pl/) | [Link](https://www.ideo.pl/kariera/oferty-pracy/) | eCommerce agency
+42\.| [Ideo](https://www.ideo.pl/) | [Link](https://www.ideo.pl/kariera/oferty-pracy/) | Software development
+43\.| [Ideo Force](https://www.ideoforce.pl/) | [Link](https://www.ideoforce.pl/o-firmie/oferty-pracy/) | eCommerce agency
 44\.| [InFast](https://www.infast.com.pl/) | - | IT solutions
 45\.| [InfoSoftware](https://infosoftware.pl/) | [Link](https://infosoftware.pl/praca/) | IT solutions
 46\.| [Interactive Vision](https://interactivevision.pl/) | [Link](https://interactivevision.pl/kariera) | Interactive agency
