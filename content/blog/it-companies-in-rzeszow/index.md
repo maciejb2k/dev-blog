@@ -23,9 +23,9 @@ readTime: "3"
   .companies tr:nth-child(66) { background: #dfeeff!important }
   .companies tr:nth-child(67) { background: #dfeeff!important }
   .companies tr:nth-child(77) { background: #dfeeff!important }
-  .companies tr:nth-child(80) { background: #dfeeff!important }
   .companies tr:nth-child(81) { background: #dfeeff!important }
-  .companies tr:nth-child(88) { background: #dfeeff!important }
+  .companies tr:nth-child(82) { background: #dfeeff!important }
+  .companies tr:nth-child(89) { background: #dfeeff!important }
 </style>
 
 I've been looking for IT companies in my city, mainly specializing in software development. In the table below, I've listed all those that are either located in Rzeszów or have some origin in my city, and I've highlighted the biggest ones (250+, based on total number of employees on LinkedIn, not only from Rzeszów). I'm not sure whether I've listed every company worth mentioning, so below the table I've provided all sources, which I've used for research.
@@ -34,7 +34,7 @@ Even though Rzeszów is relatively small city (~185k residents) comparing to oth
 
 ---
 
-> Last updated on 22.11.2022
+> Last updated on 23.11.2022
 
 
 <div class="companies">
@@ -119,18 +119,19 @@ Even though Rzeszów is relatively small city (~185k residents) comparing to oth
 76\.| [Seth Software](https://seth.software/) | - | Software development
 77\.| [Sii Poland](https://sii.pl/) | [Link](https://sii.pl/oferty-pracy/) | Software development
 78\.| [Sintra](https://sintraconsulting.pl/) | [Link](https://sintraconsulting.pl/praca/) | Interactive agency
-79\.| [Soft Gorillas](https://softgorillas.com/) | [Link](https://softgorillas.com/pl/join-us/) | Software development
-80\.| [SoftSystem](https://www.softsystem.pl/pl/) | [Link](https://www.softsystem.pl/pl/oferty-pracy-rzeszow/) | Software development
-81\.| [Software Mind](https://softwaremind.com/) | [Link](https://careers.softwaremind.com/) | Software development
-82\.| [Softwarehood](https://swhood.com/) | [Link](https://swhood.com/careers) | Software development
-83\.| [Symphony Solutions](https://www.symphony-solutions.eu/) | [Link](https://www.symphony-solutions.eu/vacancies-poland/) | Software development
-84\.| [Tectonic Interactive](https://www.tectonicinteractive.com/) | [Link](https://www.tectonicinteractive.com/careers) | Software Development
-85\.| [Top SA](https://topsa.com.pl/) | [Link](https://topsa.com.pl/praca/) | IT solutions
-86\.| [UpWare ](https://upware.pl/) | - | IT solutions
-87\.| [Virtua Codelab](https://www.virtuacodelab.com/pl/) | - | eCommerce agency
-88\.| [VirtusLab](https://virtuslab.com/) | [Link](https://virtuslab.com/join-us/) | Software development
-89\.| [Zen](https://www.zen.com/) | [Link](https://zen.traffit.com/career/) | IT solutions
-90\.| [ZETO Rzeszów](https://zetorzeszow.pl/) | [Link](https://kariera.zetorzeszow.pl/) | IT solutions
+79\.| [SMOK](https://smok.co/) | - | IT solutions
+80\.| [Soft Gorillas](https://softgorillas.com/) | [Link](https://softgorillas.com/pl/join-us/) | Software development
+81\.| [SoftSystem](https://www.softsystem.pl/pl/) | [Link](https://www.softsystem.pl/pl/oferty-pracy-rzeszow/) | Software development
+82\.| [Software Mind](https://softwaremind.com/) | [Link](https://careers.softwaremind.com/) | Software development
+83\.| [Softwarehood](https://swhood.com/) | [Link](https://swhood.com/careers) | Software development
+84\.| [Symphony Solutions](https://www.symphony-solutions.eu/) | [Link](https://www.symphony-solutions.eu/vacancies-poland/) | Software development
+85\.| [Tectonic Interactive](https://www.tectonicinteractive.com/) | [Link](https://www.tectonicinteractive.com/careers) | Software Development
+86\.| [Top SA](https://topsa.com.pl/) | [Link](https://topsa.com.pl/praca/) | IT solutions
+87\.| [UpWare ](https://upware.pl/) | - | IT solutions
+88\.| [Virtua Codelab](https://www.virtuacodelab.com/pl/) | - | eCommerce agency
+89\.| [VirtusLab](https://virtuslab.com/) | [Link](https://virtuslab.com/join-us/) | Software development
+90\.| [Zen](https://www.zen.com/) | [Link](https://zen.traffit.com/career/) | IT solutions
+91\.| [ZETO Rzeszów](https://zetorzeszow.pl/) | [Link](https://kariera.zetorzeszow.pl/) | IT solutions
 
 </div>
 
