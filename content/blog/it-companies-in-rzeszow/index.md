@@ -25,7 +25,7 @@ readTime: "3"
   .companies tr:nth-child(77) { background: #dfeeff!important }
   .companies tr:nth-child(81) { background: #dfeeff!important }
   .companies tr:nth-child(82) { background: #dfeeff!important }
-  .companies tr:nth-child(89) { background: #dfeeff!important }
+  .companies tr:nth-child(90) { background: #dfeeff!important }
 </style>
 
 I've been looking for IT companies in my city, mainly specializing in software development. In the table below, I've listed all those that are either located in Rzeszów or have some origin in my city, and I've highlighted the biggest ones (250+, based on total number of employees on LinkedIn, not only from Rzeszów). I'm not sure whether I've listed every company worth mentioning, so below the table I've provided all sources, which I've used for research.
@@ -125,13 +125,14 @@ Even though Rzeszów is relatively small city (~185k residents) comparing to oth
 82\.| [Software Mind](https://softwaremind.com/) | [Link](https://careers.softwaremind.com/) | Software development
 83\.| [Softwarehood](https://swhood.com/) | [Link](https://swhood.com/careers) | Software development
 84\.| [Symphony Solutions](https://www.symphony-solutions.eu/) | [Link](https://www.symphony-solutions.eu/vacancies-poland/) | Software development
-85\.| [Tectonic Interactive](https://www.tectonicinteractive.com/) | [Link](https://www.tectonicinteractive.com/careers) | Software Development
-86\.| [Top SA](https://topsa.com.pl/) | [Link](https://topsa.com.pl/praca/) | IT solutions
-87\.| [UpWare ](https://upware.pl/) | - | IT solutions
-88\.| [Virtua Codelab](https://www.virtuacodelab.com/pl/) | - | eCommerce agency
-89\.| [VirtusLab](https://virtuslab.com/) | [Link](https://virtuslab.com/join-us/) | Software development
-90\.| [Zen](https://www.zen.com/) | [Link](https://zen.traffit.com/career/) | IT solutions
-91\.| [ZETO Rzeszów](https://zetorzeszow.pl/) | [Link](https://kariera.zetorzeszow.pl/) | IT solutions
+85\.| [Syriusz](https://www.syriusz.eu/) | - | IT solutions
+86\.| [Tectonic Interactive](https://www.tectonicinteractive.com/) | [Link](https://www.tectonicinteractive.com/careers) | Software Development
+87\.| [Top SA](https://topsa.com.pl/) | [Link](https://topsa.com.pl/praca/) | IT solutions
+88\.| [UpWare ](https://upware.pl/) | - | IT solutions
+89\.| [Virtua Codelab](https://www.virtuacodelab.com/pl/) | - | eCommerce agency
+90\.| [VirtusLab](https://virtuslab.com/) | [Link](https://virtuslab.com/join-us/) | Software development
+91\.| [Zen](https://www.zen.com/) | [Link](https://zen.traffit.com/career/) | IT solutions
+92\.| [ZETO Rzeszów](https://zetorzeszow.pl/) | [Link](https://kariera.zetorzeszow.pl/) | IT solutions
 
 </div>
 
