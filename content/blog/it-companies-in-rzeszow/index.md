@@ -66,7 +66,7 @@ Even though Rzeszów is relatively small city (~185k residents) comparing to oth
 23\.| [Develtio](https://develtio.com/) | [Link](https://develtio.com/career/) | Software development
 24\.| [DivStack](https://divstack.pl/) | - | Software development
 25\.| [Droptica](https://www.droptica.com/) | [Link](https://www.kariera.droptica.pl/oferty-pracy/) | Software development
-26\.| [E-Bi](https://e-bi.pl/) | - | Software development
+26\.| [e-BI](https://e-bi.pl/) | [Link](https://e-bi.pl/#kariera) | Software development
 27\.| [E-Service](https://e-service.net.pl/) | - | IT solutions
 28\.| [Edocs Systems](https://edocssystems.com/) | [Link](https://edocssystems.com/kariera/) | IT solutions
 29\.| [Elite Crew](https://elitecrew.io/) | [Link](https://elitecrew.io/career/) | Software development
