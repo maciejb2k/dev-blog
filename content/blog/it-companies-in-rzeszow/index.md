@@ -34,7 +34,7 @@ Even though Rzeszów is relatively small city (~185k residents) comparing to oth
 
 ---
 
-> Last updated on 23.11.2022
+> Last updated on 24.11.2022
 
 
 <div class="companies">
