@@ -1,5 +1,5 @@
 ---
-title: Talk about Indexes in PostgreSQL in RRUG
+title: Talk about "Indexes in PostgreSQL" in RRUG
 date: 2023-01-12
 description: Today I had a talk about indexes in local Ruby Rzeszow User Group.
 thumbnail: "./thumbnail.jpg"
