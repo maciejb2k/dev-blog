@@ -12,7 +12,11 @@ readTime: "1"
 
 Last Wednesday I had the pleasure of giving a presentation on Indexes in PostgreSQL at the Rzeszow Ruby User Group meeting. It was an interesting experience that allowed me to share my knowledge with the other participants of the meeting. Thank you to the organizers for this opportunity.
 
-Link to RRUG:
+Links to RRUG:
 
-https://twitter.com/rrugpl
+- Website: http://rrug.pl/
+- Twitter: https://twitter.com/rrugpl
+- LinkedIn: https://www.linkedin.com/company/rrug/
+- Facebook: https://www.facebook.com/RRUGpl
+
 
