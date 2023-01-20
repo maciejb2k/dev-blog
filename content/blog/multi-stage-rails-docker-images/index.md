@@ -18,7 +18,7 @@ Now I've made some improvements and corrected old mistakes:
 - I've used multi-stage builds, so the image size **reduced to ~150MB**,
 - majority of ENV variables are set and named properly,
 - gems and binaries (like rails) have proper paths,
-- I removed unnecessary files and leftovers from gem installations.
+- I removed unnecessary files and leftovers from gem installations,
 - more things are explicit, like `BUNDLER_VERSION`, etc.,
 - each layer in Dockerfile has comments.
 
@@ -329,7 +329,3 @@ volumes:
 networks:
   dev_network:
 ```
-
----
-
-Summarizing this post, advice to myself in the future is - spend more time analyzing performance 
