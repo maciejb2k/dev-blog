@@ -8,6 +8,8 @@ authorPhoto: "./author.jpg"
 readTime: "5"
 ---
 
+<span style="padding: 30px; background-color: #f9ffba; display: block; border-radius: 5px; border: 1px solid #dfeb64;">**Update Notice - 01.2023 :**<br>This article is outdated and shows bad practises about creating Docker images. [Check out improved version of this article here](https://dev-blog.maciejbiel.pl/multi-stage-rails-docker-images/).</span>
+
 The most important thing when dealing with Rails is to use Linux, it's a must! Also keep in mind that installing Rails is tricky and sometimes it can drive you crazy. Lets get straight into configuration.
 
 In this configuration, a volume with Rails project inside the container is mapped to a directory with project on the local system. The only problem is with executables like `Rubocop`, so I use Visual Studio with `Dev Containers` extension and I can attach directly to container to make executables works. 
