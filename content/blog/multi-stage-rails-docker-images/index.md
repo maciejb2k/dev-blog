@@ -64,7 +64,7 @@ ENV BUNDLE_JOBS 4
 ENV BUNDLE_RETRY 3
 ENV RAILS_ENV development
 ENV RACK_ENV development
-ENV PATH=/app/bin:$PATH
+ENV PATH=$APP_DIR/bin:$PATH
 ENV LANG C.UTF-8
 
 # Add PostgreSQL, timezone libraries,
@@ -168,7 +168,7 @@ ENV RACK_ENV production
 ENV RAILS_ENV production
 ENV RAILS_SERVE_STATIC_FILES true
 ENV RAILS_LOG_TO_STDOUT=true
-ENV PATH=/app/bin:$PATH
+ENV PATH=$APP_DIR/bin:$PATH
 ENV LANG C.UTF-8
 
 # Add PostgreSQL and timezone libraries.
