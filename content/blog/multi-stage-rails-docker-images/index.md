@@ -1,5 +1,5 @@
 ---
-title: Multi-stage Rails Docker images
+title: Multi-stage Docker images for Rails
 date: 2023-01-20
 description: Updated version of my previous article about dockerizing Rails apps.
 thumbnail: "./thumbnail.jpg"
@@ -256,7 +256,7 @@ We can also get into container by selecting "Attach to running container", but t
   `.devcontainer/devcontainer.json` - devcontainer settings:
 ```json
 {
-  "name": "Rails Appp",
+  "name": "Rails App",
   
   // service must have the same name as in docker-compose.yml
   "dockerComposeFile": ["../docker-compose.yml"],
