@@ -618,7 +618,7 @@ git remote show origin
 Views contents of `.git/config`. 
 
 ## `git reset`
-This command is specifically about **updating the index**, wchi will move the branch `HEAD` points to.
+This command is specifically about **updating the index**, which will move the branch `HEAD` points.
 
 Used to take the current branch and reset it to point somewhere else, and possibly bring the index and working tree along.
 
