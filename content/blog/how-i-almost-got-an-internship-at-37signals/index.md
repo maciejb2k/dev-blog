@@ -108,7 +108,9 @@ On April 4th I received an email that I was not selected for the internship. I w
 
 To be honest, I still don't know if I did my recruitment task well or not. Perhaps I overengineered my solution or I didn't do it well enough.
 
-I think that my English level and communication skills presented during the final interview were the main reasons why I wasn't selected. Being very nervous made it hard for me to concentrate and speak clearly.
+I created a basic working version of the code within one day. Since there was plenty of time, later on, I played around with the code a bit, refactoring it, adding tests, features, and so on. I can assume that they didn't like that I spent a lot of time on this task.
+
+I think that my English level and communication skills presented during the final interview were one of the main reasons why I wasn't selected. Being very nervous made it hard for me to concentrate and speak clearly.
 
 While I hadn't any trouble understanding the Director of Engineers, the conversation with the SIP team Engineering Manager was probably the most difficult I've ever had, due to his accent, random microphone cuts, and random Zoom lags (that's why I hate talking on platforms other than Discord - the voice quality and stability is incomparable). I want to make it clear that I have no issue with him personally. It was my job to understand him. I need to greatly improve my English skills, especially my listening skills.
 
