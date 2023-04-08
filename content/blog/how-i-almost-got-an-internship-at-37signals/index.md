@@ -1,7 +1,7 @@
 ---
 title: How I almost got an internship at 37signals
 date: 2023-04-05
-description: Out of more than 2000 applications, I was in the final few candidates.
+description: Out of more than 2000 applications, I was in the top 3 candidates.
 thumbnail: "./thumbnail.jpg"
 author: "Maciej Biel"
 authorPhoto: "./author.jpg"
