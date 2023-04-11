@@ -26,13 +26,13 @@ It was an interesting experience. I learned a lot, and I'm proud of myself for m
 
 ## How it started
 
-In the Rails community, **37signals** is a well-known company. They are the creators of [Basecamp](https://basecamp.com/) and [HEY](https://www.hey.com/), and the co-founder and CTO, [David Heinemeier Hansson](https://twitter.com/dhh), is the creator of the Ruby on Rails framework.
+In the Rails community, **37signals** is a well-known company. They are the creators of [Basecamp](https://basecamp.com/) and [HEY](https://www.hey.com/), and the co-owner and CTO, [David Heinemeier Hansson](https://twitter.com/dhh), is the creator of the [Ruby on Rails](https://rubyonrails.org/) framework.
 
 When I saw the [internship offer](https://startup.jobs/internships-summer-23-37signals-4038698) in January, I immediately started researching the company. The internship offers from them come once in a few years, so it was a very unique opportunity.
 
 I looked through their websites ([37signals](https://37signals.com/), [Basecamp](https://basecamp.com/), [HEY](https://www.hey.com/)), [Twitter](https://twitter.com/dhh), [YouTube](https://www.youtube.com/@basecamp), blogs ([Hey World](https://world.hey.com/dhh), [Signal v. Noise](https://m.signalvnoise.com/), etc.), podcast ([Rework](https://37signals.com/podcast/)), and their books ([Basecamp Handbook](https://basecamp.com/handbook), [Shape-Up](https://basecamp.com/shapeup), [Getting Real](https://basecamp.com/gettingreal)) to figure out the best way to write my resume and cover letter to maximize my chances of getting in.
 
-When I was looking through Twitter, I saw that when a job offer opens up at 37signals, the recruiting team usually manually goes through thousands of applications.
+When I was looking through Twitter, I saw that when a job offer opens up at 37signals, the recruiting team usually manually goes through [thousands of applications](https://twitter.com/dhh/status/1233165530271379456).
 
 They were looking for three interns for their **Web Programming** team, **SIP** (Security, Infrastructure, and Performance) team, and **Ops** team. I applied for the SIP team because I am mainly interested in focusing on the backend.
 
@@ -42,7 +42,7 @@ I knew I was taking on a very difficult challenge, but I felt like I could do it
 
 ## Resume & Cover Letter
 
-They have repeatedly emphasized on their website and podcast that [they don't look at the resume](https://www.youtube.com/shorts/SUrp_6HN_qM) and the cover letter is what matters the most to them. That's why I spent the most time on it.
+They have repeatedly emphasized on their website and podcast that [they don't look at the resume](https://www.youtube.com/shorts/SUrp_6HN_qM) and the cover letter [is what matters the most to them](https://signalvnoise.com/posts/1748-forget-the-resume-kill-on-the-cover-letter). That's why I spent the most time on it.
 
 The reason for this is that most of their communication is done through writing, there aren't many meetings and they don't get in person very often ([37signals is a fully remote and fully async company](https://basecamp.com/handbook/09-how-we-work#asynchronously)). That's why the ability to write and explain yourself very clearly by writing and thinking out loud is crucial.
 
@@ -116,6 +116,6 @@ I created a basic working version of the code within one day. Since there was pl
 
 I think that my English level and communication skills presented during the final interview were one of the main reasons why I wasn't selected. Being very nervous made it hard for me to concentrate and speak clearly.
 
-While I hadn't any trouble understanding the Director of Engineers, the conversation with the SIP team Engineering Manager was probably the most difficult I've ever had, due to his accent, random microphone cuts, and random Zoom lags (that's why I hate talking on platforms other than Discord - the voice quality and stability is incomparable). I want to make it clear that I have no issue with him personally. It was my job to understand him. I need to greatly improve my English skills, especially my listening skills.
+While I hadn't any trouble understanding the Director of Engineering, the conversation with the SIP team Engineering Manager was probably the most difficult I've ever had, due to his accent, random microphone cuts, and random Zoom lags (that's why I hate talking on platforms other than Discord - the voice quality and stability is incomparable). I want to make it clear that I have no issue with him personally. It was my job to understand him. I need to greatly improve my English skills, especially my listening skills.
 
 My conclusion is that I need to start learning and improving even more, as my current level wasn't enough to secure the internship. I also need to avoid making similar mistakes in the future.
