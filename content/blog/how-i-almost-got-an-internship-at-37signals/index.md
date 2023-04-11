@@ -26,7 +26,7 @@ It was an interesting experience. I learned a lot, and I'm proud of myself for m
 
 ## How it started
 
-In the Rails community, **37signals** is a well-known company. They are the creators of Basecamp and Hey, and the co-founder and CTO, [David Heinemeier Hansson](https://twitter.com/dhh), is the creator of the Ruby on Rails framework.
+In the Rails community, **37signals** is a well-known company. They are the creators of [Basecamp](https://basecamp.com/) and [HEY](https://www.hey.com/), and the co-founder and CTO, [David Heinemeier Hansson](https://twitter.com/dhh), is the creator of the Ruby on Rails framework.
 
 When I saw the [internship offer](https://startup.jobs/internships-summer-23-37signals-4038698) in January, I immediately started researching the company. The internship offers from them come once in a few years, so it was a very unique opportunity.
 
