@@ -28,7 +28,7 @@ It was an interesting experience. I learned a lot, and I'm proud of myself for m
 
 In the Rails community, **37signals** is a well-known company. They are the creators of [Basecamp](https://basecamp.com/) and [HEY](https://www.hey.com/), and the co-owner and CTO, [David Heinemeier Hansson](https://twitter.com/dhh), is the creator of the [Ruby on Rails](https://rubyonrails.org/) framework.
 
-When I saw the [internship offer](https://startup.jobs/internships-summer-23-37signals-4038698) in January, I immediately started researching the company. The internship offers from them come once in a few years, so it was a very unique opportunity. The salary for this internship is $2000 per 4-day week. The internship was planned from June 5th to September 1st, 2023.
+When I saw the [internship offer](https://startup.jobs/internships-summer-23-37signals-4038698) in January, I immediately started researching the company. The internship offers from them come once in a few years, so it was a very unique opportunity. The salary for this internship is **$2000 per 4-day week**. The internship was planned from **June 5th** to **September 1st**, 2023.
 
 I looked through their websites ([37signals](https://37signals.com/), [Basecamp](https://basecamp.com/), [HEY](https://www.hey.com/)), [Twitter](https://twitter.com/dhh), [YouTube](https://www.youtube.com/@basecamp), blogs ([Hey World](https://world.hey.com/dhh), [Signal v. Noise](https://m.signalvnoise.com/), etc.), podcast ([Rework](https://37signals.com/podcast/)), and their books ([Basecamp Handbook](https://basecamp.com/handbook), [Shape-Up](https://basecamp.com/shapeup), [Getting Real](https://basecamp.com/gettingreal)) to figure out the best way to write my resume and cover letter to maximize my chances of getting in.
 
@@ -72,7 +72,7 @@ I was preparing for this call for one and a half week, I took a lot of notes wit
 
 I was also very unhappy with the call because I felt that my English level downgraded to the most basic level. I was stuttering, I couldn't find the right words, I was talking too fast, and I was making a lot of mistakes. As a Polish person, I'm not used to speaking English on daily basis, and I was very nervous.
 
-During the call, I asked the recruiter about the number of candidates, and she said that **there were over 2000 applications**, and to that point, they invited only 70 people. I was very happy to hear that because I thought that I had a very small chance of getting in.
+During the call, I asked the recruiter about the number of candidates, and she said that **there were over 2000 applications**, and to that point, they invited **only 70 people**. I was very happy to hear that because I thought that I had a very small chance of getting in.
 
 ## Coding test
 
