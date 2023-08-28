@@ -139,7 +139,7 @@ Even though Rzeszów is relatively small city (~185k residents) comparing to oth
 91\.| [Syriusz](https://www.syriusz.eu/) | - | IT solutions
 92\.| [Tectonic Interactive](https://www.tectonicinteractive.com/) | [Link](https://www.tectonicinteractive.com/careers) | Software Development
 93\.| [Top SA](https://topsa.com.pl/) | [Link](https://topsa.com.pl/praca/) | IT solutions
-94\.| [Transition Technologies Software](https://ttsw.com.pl/) | [Link](https://ttsw.com.pl/pl/career) | Software development
+94\.| [Transition Technologies](https://ttsw.com.pl/) | [Link](https://ttsw.com.pl/pl/career) | Software development
 95\.| [UpWare ](https://upware.pl/) | - | IT solutions
 96\.| [Virtua Codelab](https://www.virtuacodelab.com/pl/) | - | eCommerce agency
 97\.| [VirtusLab](https://virtuslab.com/) | [Link](https://virtuslab.com/join-us/) | Software development
