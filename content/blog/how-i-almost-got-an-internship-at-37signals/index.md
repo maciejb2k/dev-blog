@@ -52,12 +52,6 @@ It took me two weeks to create a cover letter and resume. When creating my cover
 
 I assumed that the recruiter would spend at most 1-2 seconds looking at my cover letter, so I had to somehow grab their attention. My goal was to make sure that the content I wanted to convey could be easily understood within a few seconds.
 
-Here is my cover letter:
-
-<div class="cover-letter">
-  <img src="./cover_letter.png"  alt="Cover Letter Preview" />
-</div>
-
 ## Introductory call
 
 At the end of February (27.02.2023), I received an email from the recruiting team saying that I was **selected for an introductory call**. I was surprised because I didn't expect to get invited to the next stage of the recruitment process.
