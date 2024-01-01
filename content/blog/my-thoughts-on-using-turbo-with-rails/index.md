@@ -56,9 +56,56 @@ Browsing **GitHub repositories** is a great example of a Turbo Drive in action (
 
 ### Turbo Frames
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies ultricies, nunc nisl ultricies nunc, quis ultricies nisl nisl eget nisl. Donec auctor, nisl eget ultricies ultricies, nunc nisl ultricies nunc, quis ultricies nisl nisl eget nisl.
+When using Turbo Drive, by default it replaces the entire `<body>` with each response. We are not limited to this behavior, because thanks to Turbo Frames we can:
+- Decompose our page and **replace smaller parts of the page** wrapped with frames.
+- Defer **load of a page** from our application inside the frame.
+
+<br>
+
+![MPA](./turbo-frame.png)
+
+<br>
+
+Turbo uses custom HTML element `<turbo-frame>` to define a frame.
+```html
+<turbo-frame id="contact">
+  ...
+</turbo-frame>
+
+<turbo-frame id="comments" src="/comments">
+  <p>Loading comments ...</p>
+</turbo-frame>
+```
+
+ERB syntax example:
+```ruby
+<%= turbo_frame_tag :comments, src: comments_path(@post) do %>
+  <%= t(".loading") %>
+<% end %>
+```
+
+It all comes down to the **ID's** from the **DOM**.
+
+Each DOM element must have a **unique ID**. If the ID matches with the ID of Turbo Frame from server response, some actions by Turbo can be performed, like replacing or appending the content (more on actions later).
+
+Turbo offers a wide range of **customizations for Turbo Frames**, whether the whole navigation is again intercepted by Turbo Drive and limited to the frame, so the navigation occurs only inside the frame, not the entire page (browser's history is not affected) or whether we can break out the frame and navigate to the URL outside the frame.
 
 ### Turbo Streams
+
+```ruby
+<%= turbo_stream.remove "request-#{@friend_request.id}" %>
+
+<%= turbo_stream.update :flash,
+                        partial: "shared/dash_flash" %>
+
+<%= turbo_stream.update :outgoing_requests,
+                        partial: "friend_requests/outgoing_requests",
+                        locals: { outgoing: @outgoing } %>
+
+<%= turbo_stream.update :dash_pagination,
+                        partial: "shared/dash_pagination",
+                        locals: { pagy: @pagy_outgoing } %>
+```
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies ultricies, nunc nisl ultricies nunc, quis ultricies nisl nisl eget nisl. Donec auctor, nisl eget ultricies ultricies, nunc nisl ultricies nunc, quis ultricies nisl nisl eget nisl.
 
