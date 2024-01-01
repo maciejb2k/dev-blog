@@ -35,7 +35,24 @@ Turbo is a small and simple JavaScipt library, which consists of three major par
 
 ### Turbo Drive
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies ultricies, nunc nisl ultricies nunc, quis ultricies nisl nisl eget nisl. Donec auctor, nisl eget ultricies ultricies, nunc nisl ultricies nunc, quis ultricies nisl nisl eget nisl.
+Turbo Drive is a main part of Turbo. Take a look at the flowchart below.
+
+<br>
+
+![MPA](./turbo-drive.png)
+
+<br>
+
+When the Turbo script is loaded on the first request, Turbo Drive **intercepts** all clicks on `<a>` links to the same domain and all `<form>` submissions.
+
+Now, every time when we click on a link or submit a form, instead of performing full page reload, the Turbo:
+- Requests the new page using `fetch()` ([Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)) and displays [progress bar](https://turbo.hotwired.dev/handbook/drive#displaying-progress) on the current page.
+- Changes the URL in the browser using [History API](https://developer.mozilla.org/en-US/docs/Web/API/History_API).
+- Replaces the current `<body>` with response and merges `<head>`.
+
+This is a noticable **performance improvement**, because we download the necessary assets for every page like css, js, fonts, etc. **only once** on the first request. The server and client are not doing the same work over and over again.
+
+Browsing **GitHub repositories** is a great example of a Turbo Drive in action (btw. did you know that [GitHub is a monolith Rails application](https://github.blog/2023-04-06-building-github-with-ruby-and-rails/)?).
 
 ### Turbo Frames
 
@@ -47,8 +64,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget
 
 ### Hotwire and Rails
 
-The frontend in Rails 7+ is closely integrated with three JavaScript libraries: **Turbo**, **Stimulus** and **Strada**, which all combined are called **Hotwire**. They are developed and maintained by 37signals.
+The frontend in Rails 7+ is closely integrated with three JavaScript libraries: [**Turbo**](https://turbo.hotwired.dev/), [**Stimulus**](https://stimulus.hotwired.dev/) and [**Strada**](https://strada.hotwired.dev/), which all combined are called [**Hotwire**](https://hotwired.dev/). They are developed and maintained by [37signals](https://dev.37signals.com/).
 
-All of them are intended to be framework agnostic, but they work best with Rails and there are the most tutorials and examples for Rails.
+All of them are intended to be framework agnostic, but they work best with Rails. Moreover, most of the tutorials and examples are suited for Rails.
 
 This is only brief explanation of Turbo, for detailed explanation and deep dive, check out [documentation](https://turbo.hotwired.dev/handbook/introduction), [this article](https://www.writesoftwarewell.com/turbo-drive-essentials/) or [this guide](https://www.hotrails.dev/turbo-rails).
