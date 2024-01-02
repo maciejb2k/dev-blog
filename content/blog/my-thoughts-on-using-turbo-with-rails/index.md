@@ -1,11 +1,11 @@
 ---
 title: My thoughts on using Turbo with Rails
-date: 2024-01-01
+date: 2024-01-02
 description: I want to share my views on using Turbo with Rails.
 thumbnail: "./thumbnail.jpg"
 author: "Maciej Biel"
 authorPhoto: "./author.jpg"
-readTime: "13"
+readTime: "12"
 ---
 
 I started using Turbo with Rails half a year ago. I implemented Turbo in two of my projects (side and commercial one) and I have some initial thoughts about it.
@@ -216,7 +216,7 @@ It also may save a lot of money for the client, because we don't need to hire a 
 
 ###  Less JavaScript
 
-Turbo **reduces amounts of JavaScript code**, because we don't need to write custom code for fetching data and updating the DOM. Sometimes it is necessary to write some custom JavaScript code, but the [**Stimulus**](https://stimulus.hotwired.dev/) framework is designed to solve this problem. It works very well with Turbo.
+Turbo **reduces amounts of JavaScript code**, because we don't need to write custom code for fetching data and updating the DOM. Sometimes it is necessary to write some custom JavaScript code, but the [**Stimulus**](https://stimulus.hotwired.dev/) library is designed to solve this problem. It integrates very well with Turbo.
 
 ### Maintainability
 
@@ -224,23 +224,23 @@ Single codebase also leads to easier **maintenance** and **deployment** of the a
 
 ### Interactivity
 
-Turbo allows us to create a web application, which may kinda feel like SPA, but without the complexity of the SPA. This is not easy to achieve and requires some skill and experience with the frontend, Turbo and Rails, but it is possible and can be done.
+Turbo allows us to create a web application, which may kinda **feel like SPA**, but without the complexity of the SPA. This is not straightforward to achieve and requires some experience and proficiency with the frontend, Turbo and Rails. Nevertheless, it is feasible and achievable.
 
-As an example I will show you a piece from my side project, where in the user posts, I was able to implement infinite scrolling, likes, adding, editing and deleting comments without full page reload.
+As an example I will show you a fragment of my side project, where in the user posts, I was able to implement infinite scrolling, likes, adding, editing and deleting comments without full page reload.
 
 Without Turbo or some javascript framework, this would be impossible to implement.
 
 <br>
 
-![MPA](./post-turbo.png)
+![Post with Hotwire](./post-turbo.png)
 
 <br>
 
-With a little help of Stimulus, I can even trigger toast messages from the server side, which feels like SPA. This is actually very cool.
+With a little help of Stimulus, I can even trigger toast messages from the server on the client side, which feels like SPA. This is actually very cool.
 
 <br>
 
-![MPA](./toast.png)
+![Toast message](./toast.png)
 
 <br>
 
@@ -296,27 +296,27 @@ Turbo will not be as fast as newest combinations of Next.js with Server Componen
 
 ### Lack of component libraries
 
-Ecosystems like React, Vue or Angular have a tons of component libraries, which you can very easily intergrate with your application and they speed up the development process a lot.
+React, Vue or Angular have a tons of component libraries, which you can very easily intergrate with your application and they speed up the development process a lot.
 
 This is not the case with Hotwire (Turbo + Stimulus). The only reasonable component library is [Stimulus Components](https://www.stimulus-components.com/), which is more like a selective collection of basic components, rather than a full featured component library. You have to often look over the Internet for some custom vanilla js components.
 
-Maybe there are some component libraries for Hotwire, and I am not aware of them, let me know if you know any and I am wrong.
+Maybe there are some component libraries for Hotwire, and I am not aware of them, let me know if you know any.
 
 ### Learning curve
 
-The concept behind Turbo is simple and documentation is not long to read and understand, but when I was trying to use Turbo at the beginning I was so pissed of how magical it is 😂 and I couldn't move forward becase the unexpected things were happening all the time.
+The concept behind Turbo looks simple, the documentation clearly explains how it works, but when I was trying to use Turbo at the beginning in practise, I was so pissed of how magical it is 😂. I couldn't move forward becase the unexpected things were occuring all the time.
 
 Due to this initial lack of understanding, I've been thinking all the time that Turbo instead of speeding up my work, it's slowing it down twice as much, and I was considering about giving up on it and going back to the SPA with React or Angular.
 
 It took me some time to understand how the Turbo Streams interact with the Turbo Frames and DOM elements, but to be honest, sometimes I am still struggling with it.
 
-But I think this is normal in Rails world. A lot of magic happens at the beginning and it does not speed up the work, but after some practise and experience, it starts to pay off and make things done faster.
+Nevertheless, I think this is normal in Rails world. A lot of magic happens at the beginning and it does not speed up the work, but after some practise and experience, it starts to pay off and make things done faster.
 
 ### Handling UI mostly by yourself
 
 Turbo gives you only the fundamentals to communicate with the server and update the DOM without writing a lot of custom JavaScript code.
 
-Let's say we want to implement a simple contact form. You have to handle the UI events like disabling the button after submitting the form, displaying flash messages, clearing the form after successful submission, etc. by yourself - on the client and server side.
+Let's say we want to implement a simple contact form. You have to handle the UI events like disabling the button after submitting the form, displaying additional flash messages, clearing the form after successful submission, displaying toast message, etc. by yourself - on the client and server side.
 
 Dealing with these UI events and changes is easier with form libraries like React Hook Form or Angular Reactive Forms in frontend frameworks, but in Rails we still have an advantage of single codebase and single place to manage the state of the application.
 
@@ -330,12 +330,14 @@ This may quickly lead to a lot of mess in the code and without proper organizati
 
 ### Overall UX of apps built with Turbo
 
-This is probably topic to discuss, but I have a feeling, that even though apps with Turbo are very close to have SPA-like experience, but they are a little sluggish and these interactions with the user are with a little delay and not as smooth as in SPA.
+This is probably topic to discuss, but I have a feeling, that even though apps with Turbo are very close to have SPA-like experience, they are a little sluggish. Interactions and transitions are with a little delay and not as smooth as in SPA.
 
 This may be a skill issue and I am wrong, but a well written app in modern frontend framework feels blazing fast when compared to the app with Turbo.
 
 ## Summary
 
-Overall Hotwire with Turbo is very cool alternative approach for modern frontend development, and when working solo as a "Reinassance Developer" this is a ultimate powerful tool.
+Overall Hotwire with Turbo is **very cool alternative approach for modern frontend development**, it has stood the test of time and is currently widely used in Rails applications.
 
-I like it and I will continue to learn and use it. Hotwire is not a silver bullet and it is not for everyone, but it is worth to try it out when you are working with Rails.
+When working solo as a [Reinassance Developer](https://youtu.be/iqXjGiQ_D-A?si=eXnrXNyYfT2cTh4k&t=1205), this is an ultimately powerful tool.
+
+I like it and I will continue to learn and use it. It is worth to try it out when you are working with Rails.
