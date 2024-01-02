@@ -39,7 +39,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Create all blog posts page with pagination
   const posts = result.data.allMarkdownRemark.nodes;
-  const postsPerPage = 10;
+  const postsPerPage = 20;
   const numPages = Math.ceil(posts.length / postsPerPage);
 
   Array.from({ length: numPages }).forEach((_, i) => {
