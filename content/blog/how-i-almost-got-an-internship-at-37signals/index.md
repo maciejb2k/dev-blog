@@ -113,3 +113,11 @@ I think that my English level and communication skills presented during the fina
 While I hadn't any trouble understanding the Director of Engineering, the conversation with the SIP team Engineering Manager was probably the most difficult I've ever had, due to his accent, random microphone cuts, and random Zoom lags (that's why I hate talking on platforms other than Discord - the voice quality and stability is incomparable). I want to make it clear that I have no issue with him personally. It was my job to understand him. I need to greatly improve my English skills, especially my listening skills.
 
 My conclusion is that I need to start learning and improving even more, as my current level wasn't enough to secure the internship. I also need to avoid making similar mistakes in the future.
+
+*EDIT:*
+
+There is an article from 37signals that summarizes the 2023 internship program. It turns out that no one was hired for full-time positions after a 3-month internship.
+
+https://dev.37signals.com/2023-summer-interns/
+
+After reading it, I have no doubts why I wasn't selected, since I was competing with people who are native English speakers and seems to have a lot of experience in the industry.
