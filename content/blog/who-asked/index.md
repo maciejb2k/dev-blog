@@ -18,3 +18,7 @@ I really like this idea because:
 - I can share my own notes, so maybe other people will find my posts useful.
 
 So I came up with this blog. I chose **Gatsby** as its main technology, because it's very fast, the content is pre-rendered and the most important, I can write posts in **markdown** files (where I'm taking all my personal notes). After making changes, I can simply commit new posts to GitHub and Vercel will automatically publish them under my domain.
+
+Edit 12.02.2024:
+
+Over time, I've come to realize that choosing Gatsby [was a terrible mistake](https://www.youtube.com/live/v5v1pVzhhKI?si=Cc0DmmnuqMJ94UhZ&t=2408), and there are much better technologies available, like Next.js, Astro or Jekyll. All my posts are saved as markdown files, so in the future, I will migrate to a less cumbersome technology.
